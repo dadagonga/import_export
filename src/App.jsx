@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css';
 
-import { Irena, dva, tri, iDosta } from '../components'
+import { Irena, Dva, Tri, Idosta } from '../components'
 
 
 function App() {
@@ -11,9 +11,9 @@ function App() {
   return (
     <>
       <div>
-        <dva />
-        <tri />
-        <iDosta />
+        <Dva />
+        <Tri />
+        <Idosta />
       </div>
     </>
   )
